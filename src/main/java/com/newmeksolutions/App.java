@@ -8,7 +8,9 @@ import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.TimeUnit;
 
 public class App {
-    public static void main(String[] args) {
+    public static void main(String[] args) 
+    {
+        // Entry Point for the Project// 
     	TriggerListener listener = new TriggerListener();
 
         ScheduledExecutorService scheduler = Executors.newScheduledThreadPool(1);
