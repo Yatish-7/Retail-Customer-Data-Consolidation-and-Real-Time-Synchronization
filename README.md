@@ -3,7 +3,7 @@
 ![Java Version](https://img.shields.io/badge/Java-17+-blue.svg) 
 ![Maven Build](https://img.shields.io/badge/Build-Maven-success.svg) 
 ![RabbitMQ](https://img.shields.io/badge/RabbitMQ-3.x-orange.svg) 
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-17+-blue.svg) 
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-14+-blue.svg) 
 
 ## 🚀 **About The Project**  
 Retail Customer Data Consolidation and Real‑Time Synchronization is a robust Java‑based solution developed to streamline customer data handling across retail environments.  
@@ -27,7 +27,7 @@ It aggregates data from point‑of‑sale (POS) systems and online registrations
 
 ## 🏗️ Built With
 Here are some of the major technologies that power this project:
-- **Java 17** — The programming language for backend services  
+- **Java 11** — The programming language for backend services  
 - **Maven** — Build and dependency management  
 - **RabbitMQ** — High‑performance message broker for asynchronous communication  
 - **PostgreSQL** — Reliable relational database for consolidated data storage  
@@ -112,5 +112,17 @@ We welcome and appreciate contributions to make this project better! Here’s ho
 
 6. **Open a Pull Request**  
    Submit a Pull Request to have your changes reviewed and merged.
+
+---
+
+## 🗺️ Architecture Diagram
+![Architecture Diagram](architecture_diagram.png)
+
+### 🔍 Explanation
+The data flow for this project is as follows:
+1. **Point Of Sale** and **ECommerceDB** databases act as **data sources**, sending changes to the **POSDataSync** service.
+2. **POSDataSync** captures these changes and publishes them to **RabbitMQ** as **JSON messages**.
+3. The JSON messages land in a **RabbitMQ queue**, making the data available for downstream services.
+4. When the **UnifiedCustomerSync** service starts, it **consumes JSON messages** from the queue and **stores the consolidated data in PostgreSQL**.
 
 ---
