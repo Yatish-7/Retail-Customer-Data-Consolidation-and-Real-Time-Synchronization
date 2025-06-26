@@ -3,7 +3,7 @@
 ![Java Version](https://img.shields.io/badge/Java-17+-blue.svg) 
 ![Maven Build](https://img.shields.io/badge/Build-Maven-success.svg) 
 ![RabbitMQ](https://img.shields.io/badge/RabbitMQ-3.x-orange.svg) 
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-14+-blue.svg) 
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-17+-blue.svg) 
 
 ## 🚀 **About The Project**  
 Retail Customer Data Consolidation and Real‑Time Synchronization is a robust Java‑based solution developed to streamline customer data handling across retail environments.  
@@ -27,7 +27,7 @@ It aggregates data from point‑of‑sale (POS) systems and online registrations
 
 ## 🏗️ Built With
 Here are some of the major technologies that power this project:
-- **Java 11** — The programming language for backend services  
+- **Java 17** — The programming language for backend services  
 - **Maven** — Build and dependency management  
 - **RabbitMQ** — High‑performance message broker for asynchronous communication  
 - **PostgreSQL** — Reliable relational database for consolidated data storage  
