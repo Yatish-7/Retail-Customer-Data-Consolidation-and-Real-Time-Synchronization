@@ -4,6 +4,7 @@ import java.sql.*;
 
 public class DBConfig 
 {
+    // this code configure the database to the java code and this has a method which returns the connection//
 	private static final String POS_DB_URL = "jdbc:sqlserver://localhost:1433;databaseName=PointOfSale;encrypt=true;trustServerCertificate=true";
     private static final String POS_DB_USER = "sa";
     private static final String POS_DB_PASS = "803671";
