@@ -14,7 +14,10 @@ import com.rabbitmq.client.Channel;
 import com.rabbitmq.client.ConnectionFactory;
 import com.rabbitmq.client.DeliverCallback;
 
-public class RabbitMQConsumer {
+public class RabbitMQConsumer 
+{
+      // this code consumes data from rabbit mq queue//
+
     private static final String EXCHANGE_NAME = "customer_data";
     private static final String QUEUE_NAME = "customer_data_queue";
     private static final String BINDING_KEY = "customer_key";
