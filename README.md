@@ -126,3 +126,24 @@ The data flow for this project is as follows:
 4. When the **UnifiedCustomerSync** service starts, it **consumes JSON messages** from the queue and **stores the consolidated data in PostgreSQL**.
 
 ---
+
+## 👥 Authors
+Developed by:
+- **Yatish Datta** — B.Tech Student, Koneru Lakshmaiah Deemed to be University  
+- **RAGHAVA NITHYANAND GUTTULA** — B.Tech Student, GITAM University
+-  **Rohith Kothapalli** — B.Tech Student, GITAM University
+-  **Nadimpalli Aditi Varma** — B.Tech Student, GITAM University
+-  **Vennela N** — B.Tech Student, GITAM University
+-  **Thumu Venkat Hardhik Reddy** — B.Tech Student, GITAM University
+
+---
+
+## 🔗 Connect with Us
+- [Yatish Datta](https://www.linkedin.com/in/yatish-datta/)
+- [RAGHAVA NITHYANAND GUTTULA](https://www.linkedin.com/in/raghava-nithyanand-guttula/)
+- [Rohith Kothapalli](https://www.linkedin.com/in/rohith-kothapalli-46538a36a/)
+- [Nadimpalli Aditi Varma](https://www.linkedin.com/in/nadimpalli-aditi-varma-28ab5627b/)
+- [Vennela N](https://www.linkedin.com/in/vennela-n-117594357/)
+- [Thumu Venkat Hardhik Reddy](https://www.linkedin.com/in/thumu-venkat-hardhik-reddy-596298330/)
+
+---
