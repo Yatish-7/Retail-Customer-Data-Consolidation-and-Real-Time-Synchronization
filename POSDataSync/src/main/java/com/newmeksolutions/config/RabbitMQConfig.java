@@ -4,7 +4,10 @@ import com.rabbitmq.client.Channel;
 import com.rabbitmq.client.Connection;
 import com.rabbitmq.client.ConnectionFactory;
 
-public class RabbitMQConfig {
+public class RabbitMQConfig 
+{
+
+    // This code sets the connection properties to rabbitmq and returns connection type//
 	private static final String QUEUE_NAME = "customer_data_queue";
 
     public static Channel getChannel() throws Exception {
