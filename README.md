@@ -139,7 +139,7 @@ Developed by:
 ---
 
 ## 🔗 Connect with Us
-- [Yatish Datta](https://www.linkedin.com/in/yatish-datta/)
+- [Yatish Datta](https://www.linkedin.com/in/yatishdatta/)
 - [RAGHAVA NITHYANAND GUTTULA](https://www.linkedin.com/in/raghava-nithyanand-guttula/)
 - [Rohith Kothapalli](https://www.linkedin.com/in/rohith-kothapalli-46538a36a/)
 - [Nadimpalli Aditi Varma](https://www.linkedin.com/in/nadimpalli-aditi-varma-28ab5627b/)
