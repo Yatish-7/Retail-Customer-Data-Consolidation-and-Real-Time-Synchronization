@@ -11,7 +11,9 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 
-public class TriggerListener {
+public class TriggerListener 
+{
+    // This code Polls the changes in table//
 
     private int lastPOSLogId = 0;
     private int lastOnlineLogId = 0;
