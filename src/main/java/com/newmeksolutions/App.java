@@ -12,6 +12,8 @@ public class App {
     {
         // Entry Point for the Project// 
     	TriggerListener listener = new TriggerListener();
+    	
+    	System.out.println("Project is running....!!!");
 
         ScheduledExecutorService scheduler = Executors.newScheduledThreadPool(1);
 
