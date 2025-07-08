@@ -73,7 +73,7 @@ Run both services and watch as data flows from source databases ➔ RabbitMQ ➔
 
 ## 📞 Contact
 Project Link: [GitHub Repository](https://github.com/Yatish-7/Retail-Customer-Data-Consolidation-and-Real-Time-Synchronization)  
-Email: [nithyanand796@gmail.com](mailto:nithyanand796@gmail.com)
+Email: [thardhikreddy16@gmail.com](mailto:thardhikreddy16@gmail.com)
 
 ---
 
